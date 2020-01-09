@@ -3,13 +3,8 @@ public class Checkstyle {
 	private int X;
 	private static int a;
 	private int Y;
-
-	public Checkstyle(int X, int Y) {
-		this.X = X;
-		this.Y = Y;
+	
+	public void checkstyle(int X, int Y) {
+		this.X=X;
 	}
-	public int suma() {
-		return X+Y;
-	}
-
 }
